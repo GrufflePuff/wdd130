@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            width: 100vw;
+            text-align: center;
+            padding-top: 50px;
+        }
+        main {
+            width: 600px;
+            padding: 0px 60px 0px 60px;
+            background-image: url(images/christus.webp);
+            background-size: cover;
+            background-position: center;
+            border: 5px solid black;
+            border-radius: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            box-sizing: border-box;
+            margin: auto;
+        }
+        img {
+            border: 6px solid white;
+            border-radius: 60px;
+            width: 60px;
+            height: 60px;
+            margin: 10px;
+            }
+        #presidency img {
+            width: 80px;
+            height: 80px;
+            margin: 0px 10px 0px 10px;
+        }
+        #presidency #prophet {
+            height: 90px;
+            width: 90px;
+        }
+        #presidency {
+            grid-area: 2/1/2/5;
+        }
+        #quorum {
+            grid-area: 4/1/5/5;
+        }
+        h1, h2 {
+            font-family: Arial;
+            color: #e8eced;
+        }
+        h1 {
+            grid-area: 1/1/1/5
+        }
+        h2 {
+            font-size: 20px;
+            grid-area: 3/1/3/5;
+        }
+        img:hover {
+            border-color: rgb(184, 104, 104);
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>First Presidency</h1>
+        <div id="presidency">
+            <img src="images/oaks.webp">
+            <img id="prophet" src="images/nelson.webp">
+            <img src="images/eyring.webp">
+        </div>
+        <h2>Qourum of the Twelve Apostles</h2>
+        <div id="quorum">
+            <img src="images/anderson.webp">
+            <img src="images/uchtdorf.webp">
+            <img src="images/bednar.webp">
+            <img src="images/christofferson.webp">
+            <img src="images/rasband.webp">
+            <img src="images/cook.webp">
+            <img src="images/gong.webp">
+            <img src="images/holland.webp">
+            <img src="images/kearon.webp">
+            <img src="images/renlund.webp">
+            <img src="images/soares.webp">
+            <img src="images/stevenson.webp">
+        </div>
+    </main>
+</body>
+</html>

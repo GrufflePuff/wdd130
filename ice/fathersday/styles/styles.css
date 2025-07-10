@@ -1,0 +1,77 @@
+/* Add your CSS here to style your father's day page */
+body {
+    text-align: center;
+    margin: 30px auto;
+    width: 75%;
+}
+#wrapper {
+    background: #f8c385;
+}
+nav {
+    box-sizing: border-box;
+    background: #755242;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 25px;
+    width: 24%;
+    font-family: monospace;
+    color: #ffd96f;
+}
+h1 {
+    background: rgb(255, 233, 205);
+    box-sizing: none;
+    display: inline-block;
+    padding: 15px 80px;
+    border-radius: 50%;
+    border: #755242 solid 3px;
+    grid-area: 1/2/2/4;
+    font-family: cursive;
+    margin: 10% 5%;
+    box-shadow: 2px 2px 4px #101010;
+    text-shadow: 1px 1px 2px #101010;
+    width: 70%;
+    height: 30%;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 7%;
+}
+img {
+    grid-area: 2/1/5/3;
+    max-width: 95%;
+    box-shadow: 3px 3px 5px #101010;
+}
+section {
+    grid-column: 3/5;
+    padding-bottom: 6%;
+}
+p, h2 {
+    background: #ffead6;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 2px 2px 4px #101010;
+}
+h2 {
+    border-bottom: goldenrod solid 3px;
+    font-family: cursive;
+}
+p {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 25px;
+}
+footer {
+    box-sizing: border-box;
+    background: #755242;
+    padding: 20px;
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: left;
+}
