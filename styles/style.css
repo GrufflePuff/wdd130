@@ -112,6 +112,9 @@ main {
 #hero {
     grid-area: 2/2/3/5;
 }
+#hero img {
+    width: 100%;
+}
 #news {
     grid-area: 3/2/3/3;
 }
@@ -165,4 +168,19 @@ footer p {
 footer h4 {
     grid-column: 2/3;
     font-size: .8em;
+}
+.text-box {
+    grid-column: 2/5;
+}
+.text-box a {
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(184, 178, 178);
+    border: rgb(141, 136, 136) solid 3px;
+    color: rgb(121, 103, 55);
+    padding: 4px;
+}
+.text-box a:hover {
+    background: rgb(218, 210, 210);
+    color: rgb(181, 138, 29);
 }
